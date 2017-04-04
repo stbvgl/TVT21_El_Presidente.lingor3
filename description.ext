@@ -1,0 +1,39 @@
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "El Presidente Returns";
+		subtitle = "";
+		description = "Another insidious Western plot foiled! The People's General recieves his well-earned rest.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class End2
+	{
+		title = "The Conspirators Escape";
+		subtitle = "";
+		description = "The assassins have killed El Presidente and escaped the country! El Presidente Jr. is both grateful and upset.";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0.6,0.1,0.2,1};
+	};
+	class End3
+	{
+		title = "The Conspirators Escape (And Kill Everyone)";
+		subtitle = "";
+		description = "The assassins have killed El Presidente! And all of his bodyguards! El Presidente Jr. is grateful, upset and slightly unsettled.";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0.6,0.1,0.2,1};
+	};
+	class End4
+	{
+		title = "Assassins Killed";
+		subtitle = "";
+		description = "El Presidente has single-handedly foiled another reckless and depraved Western plot. His bodyguards are grateful to him for saving their lives.";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0.6,0.1,0.2,1};
+	};
+};
