@@ -7,7 +7,9 @@ player sideChat "El Presidente is talking to his Secret Lover.";
 sleep 15;
 
 //Let's increment our objective counter
-objcount = objcount + 1;
+if (isServer) then {
+  objcount = objcount + 1;
+};
 
 //Give El Presidente some pictures
 

@@ -1,7 +1,3 @@
-//Let's increment our objective counter
-objcount = objcount + 1;
-
-
 //Now we let Blufor know there's a minute long timer.
 
 if (side player == west) then {
@@ -28,4 +24,9 @@ player sideChat "El Presidente was spotted at the racetrack, but he won't be the
 sleep 120;
 player sideChat "El Presidente was spotted leaving the racetrack.";
 
+};
+
+//Let's increment our objective counter
+if (isServer) then {
+  objcount = objcount + 1;
 };

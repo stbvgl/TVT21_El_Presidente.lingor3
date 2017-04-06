@@ -1,8 +1,5 @@
 //Debug: is this thing on?
 //player sideChat "castlescript working!";
-//Let's increment our objective counter
-
-objcount = objcount + 1;
 
 //Now we let Blufor know there's a minute long timer.
 
@@ -30,4 +27,10 @@ player sideChat "El Presidente was spotted at the castle, but he won't be there 
 sleep 120;
 player sideChat "El Presidente was spotted leaving the castle.";
 
+};
+
+//Let's increment our objective counter
+
+if (isServer) then {
+  objcount = objcount + 1;
 };
