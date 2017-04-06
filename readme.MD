@@ -11,7 +11,7 @@ ToDo:
 
 Ideas discussion:
 
-Sniper Party
+*Skipable objectives* (Sniper Party)
 ```Make it so he has to do all objectives
 But the objective is immediately done if president-side units are in the area AND enemies are in the area
 So if the president team goes "yeah this area def has enemies in it waiting to ambush" you can skip
@@ -25,4 +25,7 @@ One of the classic ones. El Presidente in objective area for some time
 One of the new ones: "{ side _x == west && alive _x } count thisList > 0 && { side _x == east && alive _x } count thisList > 0" condition
 Maybe a larger area
 Both have objectivesDone pushBackUnique "objectiveID" in them
-So if both get completed it doesn't add 2 elements to the completed missions array```
+So if both get completed it doesn't add 2 elements to the completed missions array
+Or better yet have 2 arrays: objectivesDone and objectivesCanSkip
+Then you can reference the count of their unique elements when checking whether you can end the mission
+And reference objectivesDone for the tasks popups```
