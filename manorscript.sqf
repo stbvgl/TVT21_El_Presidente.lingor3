@@ -12,12 +12,13 @@ if (side player == west) then {
 
 manorTask setTaskState "Succeeded";
 ["TaskSucceeded",["","Property Purchased"]] call BIS_fnc_showNotification;
+"manormarker" setMarkerColorLocal "colorGreen";
 };
 
 if (side player == east) then {
 
 player sideChat "El Presidente was spotted leaving the manor!";
-
+"manormarker" setMarkerColorLocal "colorRed";
 };
 
 //Let's increment our objective counter

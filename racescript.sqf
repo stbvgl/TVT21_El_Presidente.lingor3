@@ -14,7 +14,7 @@ player sideChat "30 Seconds Remaining";
 sleep 30;
 ["TaskSucceeded",["","Speech Delivery Successful"]] call BIS_fnc_showNotification;
 raceTask setTaskState "Succeeded";
-
+"racemark" setMarkerColorLocal "colorGreen";
 };
 
 if (side player == east) then {
@@ -23,7 +23,7 @@ if (side player == east) then {
 player sideChat "El Presidente was spotted at the racetrack, but he won't be there long!";
 sleep 120;
 player sideChat "El Presidente was spotted leaving the racetrack.";
-
+"racemark" setMarkerColorLocal "colorRed";
 };
 
 //Let's increment our objective counter

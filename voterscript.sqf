@@ -12,12 +12,13 @@ if (side player == west) then {
 
 voterTask setTaskState "Succeeded";
 ["TaskSucceeded",["","Speech Delivery Successful"]] call BIS_fnc_showNotification;
+"votermarker" setMarkerColorLocal "colorGreen";
 };
 
 if (side player == east) then {
 
 player sideChat "El Presidente was spotted leaving the shanty town!";
-
+"votermarker" setMarkerColorLocal "colorRed";
 };
 
 //Let's increment our objective counter

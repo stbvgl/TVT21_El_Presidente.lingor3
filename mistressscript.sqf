@@ -19,12 +19,12 @@ if (side player == west) then {
 
 mistressTask setTaskState "Succeeded";
 ["TaskSucceeded",["","Secret Lover visit successful"]] call BIS_fnc_showNotification;
-
+"mistressmarker" setMarkerColorLocal "colorGreen";
 };
 
 
 if (side player == east) then {
 
 player sideChat "El Presidente was spotted leaving his Secret Lover's home!";
-
+"mistressmarker" setMarkerColorLocal "colorRed";
 };

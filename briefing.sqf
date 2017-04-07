@@ -45,12 +45,12 @@ primaryTask setSimpleTaskDescription ["Do not allow El Presidente's cowardly and
 
 if (side player == east) then {
 
-player createDiaryRecord ["Diary", ["Escape", "We have an airplane at the northern airport in the western-most hanger, as marked on your map. Once El Presidente is dead, we can use it to escape to the East."]];
+player createDiaryRecord ["Diary", ["Escape", "Our mysterious back has a helicopter for us to escape with. Only once El Presidente is dead will we be told where it is. We are to fly east to freedom."]];
 player createDiaryRecord ["Diary", ["Finding El Presidente", "We have a copy of his itinerary, and we know that he will be visiting all seven locations as marked on the map. We just don't know which order he'll visit them in."]];
 player createDiaryRecord ["Diary", ["Objective", "You know what? I kind of miss voting. Let's show El Presidente how we feel by voting with our wallets (and buying guns)."]];
 
 redTask2 = player createSimpleTask ["Escape"];
-redTask2 setSimpleTaskDescription ["Make your way to the northern airport, find the plane and escape", "Escape", "Escape"];
+redTask2 setSimpleTaskDescription ["Make your way to the marker, find the helicopter and escape", "Escape", "Escape"];
 
 redTask1 = player createSimpleTask ["Find and kill El Presidente"];
 redTask1 setSimpleTaskDescription ["He has HOW many bodyguards?!", "Find and kill El Presidente", "Kill"];

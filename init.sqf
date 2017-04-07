@@ -8,3 +8,8 @@
   execVM "briefing.sqf";
 
 null=[] execVM "cos\cosInit.sqf";
+
+
+if (side player == east) then {
+  "opf_start" setMarkerAlphaLocal 1;
+};

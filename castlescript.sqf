@@ -17,7 +17,7 @@ player sideChat "30 Seconds Remaining";
 sleep 30;
 ["TaskSucceeded",["","Landmark Visit Succeeded"]] call BIS_fnc_showNotification;
 castleTask setTaskState "Succeeded";
-
+"castlemark" setMarkerColorLocal "ColorGreen";
 };
 
 if (side player == east) then {
@@ -26,7 +26,7 @@ if (side player == east) then {
 player sideChat "El Presidente was spotted at the castle, but he won't be there long!";
 sleep 120;
 player sideChat "El Presidente was spotted leaving the castle.";
-
+"castlemark" setMarkerColorLocal "ColorRed";
 };
 
 //Let's increment our objective counter

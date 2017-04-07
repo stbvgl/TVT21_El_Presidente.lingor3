@@ -1,12 +1,12 @@
 v1 - First port to A3
 
 ToDo:
-- disable damage on objective people
-- reduce minimum objectives to 5 (OR: see ideas discussion below)
-- randomise OPFOR escape routes
-- Reduce explosives and weapons for OPFOR
-- Tell OPFOR where they start
-- Fix President dead & OPFOR dead end condition
+[X] disable damage on objective people
+[X] reduce minimum objectives to 5 (OR: see ideas discussion below)
+[X] randomise OPFOR escape routes
+[X] Reduce explosives and weapons for OPFOR
+[X] Tell OPFOR where they start
+[X] Fix President dead & OPFOR dead end condition
 
 
 Ideas discussion:

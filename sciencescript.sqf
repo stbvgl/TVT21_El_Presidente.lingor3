@@ -12,12 +12,13 @@ if (side player == west) then {
 
 scienceTask setTaskState "Succeeded";
 ["TaskSucceeded",["","Scientist Meeting Successful"]] call BIS_fnc_showNotification;
+"scienceTask" setMarkerColorLocal "colorGreen";
 };
 
 if (side player == east) then {
 
 player sideChat "El Presidente was spotted leaving the research base!";
-
+"scienceTask" setMarkerColorLocal "colorRed";
 };
 
 //Let's increment our objective counter

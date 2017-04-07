@@ -14,12 +14,13 @@ if (side player == west) then {
 
 bankTask setTaskState "Succeeded";
 ["TaskSucceeded",["","Bank Vist Successful"]] call BIS_fnc_showNotification;
+"bankmarker" setMarkerColorLocal "ColorGreen";
 };
 
 if (side player == east) then {
 
 player sideChat "El Presidente was spotted leaving the bank!";
-
+"bankmarker" setMarkerColorLocal "ColorRed";
 };
 
 //Let's increment our objective counter

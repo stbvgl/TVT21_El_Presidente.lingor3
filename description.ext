@@ -2,37 +2,41 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "El Presidente Returns";
-		subtitle = "";
+		title = "BLUFOR VICTORY";
+		subtitle = "El Presidente Returns";
 		description = "Another insidious Western plot foiled! The People's General recieves his well-earned rest.";
-		pictureBackground = "";
 		picture = "b_inf";
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 	class End2
 	{
-		title = "The Conspirators Escape";
-		subtitle = "";
+		title = "OPFOR VICTORY";
+		subtitle = "The Conspirators Escape";
 		description = "The assassins have killed El Presidente and escaped the country! El Presidente Jr. is both grateful and upset.";
-		pictureBackground = "";
 		picture = "KIA";
 		pictureColor[] = {0.6,0.1,0.2,1};
 	};
 	class End3
 	{
-		title = "The Conspirators Escape (And Kill Everyone)";
-		subtitle = "";
+		title = "OPFOR VICTORY";
+		subtitle = "The Conspirators Kill Everyone";
 		description = "The assassins have killed El Presidente! And all of his bodyguards! El Presidente Jr. is grateful, upset and slightly unsettled.";
-		pictureBackground = "";
 		picture = "KIA";
 		pictureColor[] = {0.6,0.1,0.2,1};
 	};
 	class End4
 	{
-		title = "Assassins Killed";
-		subtitle = "";
+		title = "BLUFOR VICTORY";
+		subtitle = "Assassins Killed";
 		description = "El Presidente has single-handedly foiled another reckless and depraved Western plot. His bodyguards are grateful to him for saving their lives.";
-		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class End5
+	{
+		title = "PYRRHIC VICTROY";
+		subtitle = "Both El Presidente and his killers are dead!";
+		description = "The assassins have killed El Presidente! But his incompetent bodyguards have had their revenge!";
 		picture = "KIA";
 		pictureColor[] = {0.6,0.1,0.2,1};
 	};
