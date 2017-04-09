@@ -32,7 +32,7 @@ redTask2 setTaskState "Assigned";
 
 };
 
-_objMkr = ["bankmarker","racemark","sciencetask","votermarker","manormarker","mistressmarker","castlemark"]
+_objMkr = ["bankmarker","racemark","sciencetask","votermarker","manormarker","mistressmarker","castlemark"];
 _mkrArray = ["escape_0", "escape_1", "escape_2", "escape_3"];
 _escapeMkr =  _mkrArray call BIS_fnc_selectRandom;
 _escapePos = getMarkerPos _escapeMkr;
