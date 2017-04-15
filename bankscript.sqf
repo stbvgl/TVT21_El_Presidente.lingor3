@@ -13,7 +13,7 @@ sleep 20;
 if (side player == west) then {
 
 bankTask setTaskState "Succeeded";
-["TaskSucceeded",["","Bank Vist Successful"]] call BIS_fnc_showNotification;
+["TaskSucceeded",["","Bank Visit Successful"]] call BIS_fnc_showNotification;
 "bankmarker" setMarkerColorLocal "ColorGreen";
 };
 
